@@ -29,7 +29,7 @@ npm run build    # static site in dist/ (relative paths, host anywhere)
 1. Create a new GitHub repo (e.g. `spoopy-pup`) and push this folder to its `main` branch.
 2. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. Every push to `main` builds and deploys automatically (see the Actions tab).
-   The game will be at `https://<your-username>.github.io/spoopy-pup/`.
+   The game will be at `https://mjin8.github.io/spoopypup/`.
 
 Asset paths are relative (`base: './'` in `vite.config.js`), so it works under any repo name.
 
