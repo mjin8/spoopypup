@@ -32,3 +32,11 @@ npm run build    # static site in dist/ (relative paths, host anywhere)
    The game will be at `https://<your-username>.github.io/spoopy-pup/`.
 
 Asset paths are relative (`base: './'` in `vite.config.js`), so it works under any repo name.
+
+## Deploy to GitHub Pages
+
+The workflow in `.github/workflows/deploy.yml` builds the game and publishes it
+on every push to `main`. One-time setup in the repo: **Settings → Pages →
+Build and deployment → Source: GitHub Actions**. The site appears at
+`https://<your-username>.github.io/spoopypup/`. All asset paths are relative,
+so no base-path changes are needed.
